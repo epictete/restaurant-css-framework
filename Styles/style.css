@@ -1,3 +1,4 @@
+/* Style CSS for the gallery land page */
 .premier:hover {
   /* IE 9 */
   -webkit-transform: scale(1.1);
@@ -9,5 +10,27 @@
 
 .picCont {
   overflow: hidden;
+}
+
+/* Style CSS for the bar image gallery*/
+.barBody {
+  background-image: url("../../Images/bar9.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Imag {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.Imag:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */

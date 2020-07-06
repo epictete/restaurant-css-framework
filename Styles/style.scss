@@ -1,3 +1,5 @@
+/* Style CSS for the gallery land page */
+
 .premier:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -7,4 +9,23 @@
 }
 .picCont{
     overflow: hidden;
+}
+
+/* Style CSS for the bar image gallery*/
+.barBody{
+    
+    background-image:  url("../../Images/bar9.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.Imag {
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.Imag:hover{
+    filter: grayscale(0);
+    transform: scale(1.5);
+
 }
