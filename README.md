@@ -1,4 +1,3 @@
-# restaurant-css-framework
 # Team challenge on Bootstrap.
   
 ## Mission
