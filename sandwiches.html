@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <script src="https://kit.fontawesome.com/7109a902b4.js" crossorigin="anonymous"></script>
-    <title>Veggie - Homepage</title>
+    <title>Sandwiches</title>
 </head>
 
 <body>
-
-
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white border-bottom border-success">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white">
             <a class="navbar-brand" href="#">
-                <img src="/assets/img/logo.png" width="150" alt="Logo Veggie" loading="lazy">
+                <img src="/assets/img/logo.png" width="100" alt="" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +28,10 @@
             <div class="collapse navbar-collapse justify-content-end pr-3" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#"><button type="button"
-                            class="btn btn-outline-success active">Welcome</button><span
+                            class="btn btn-outline-success">Welcome</button><span
                             class="sr-only">(current)</span></a>
                     <div class="nav-item nav-link btn-group">
-                        <button type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown"
+                        <button type="button" class="btn btn-outline-success dropdown-toggle active" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Menu
                         </button>
@@ -77,72 +78,58 @@
             </div>
         </nav>
     </header>
-
-    <main>
-        <div class="container">
-            <div class="jumbotron bg-cover text-center">
-                <h1 class="display-4">Hello and welcome to <i>Veggie</i>!</h1>
-                <hr class="my-4">
-                <p class="lead">Every day, we get to choose each meal. And that is an opportunity to <strong>eat
-                        well</strong>.</p>
-                <p class="lead">To feel better and to <strong>live
-                        better</strong>.</p>
-                <p class="lead">Here at <i>Veggie</i>, we believe in the power of <strong>organic</strong> and locally
-                    produced
-                    <strong>plant based</strong>
-                    food.</p>
-                <a href="resturants.html" target="_blank" class="btn btn-outline-dark">Find us</a>
+    <h1 class="titrePage">Sandwiches</h1>
+    <div class="container">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Avocado toast
+                <p class="descriptionPlat">Wholeweat bread - avocado - egg - served with a side of mixed greens</p>
             </div>
+            <div class="prix col-3">7 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Brie, apple and honey sandwich
+                <p class="descriptionPlat">Sourdough bread - brie - apple - honey - walnuts
+                    <span class="badge badge-danger badge-pill">Contains nuts</span>
+                    <span class="badge badge-danger badge-pill">Contains dairies</span>
+                </p>
+            </div>
+            <div class="prix col-3">9 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Oriental sandwich
+                <p class="descriptionPlat">Pitta bread - hummus - mixed vegetables - harissa
+                    <span class="badge badge-warning badge-pill">Spicy</span>
+                    <span class="badge badge-success badge-pill">Vegan friendly</span>
+                </p>
+            </div>
+            <div class="prix col-3">7 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Grilled vegetable and mozzarella sandwich
+                <p class="descriptionPlat">Ciabatta - mozzarella di buffalo - tomatoes - eggplant
+                    <span class="badge badge-danger badge-pill">Contains dairies</span>
+                </p>
+            </div>
+            <div class="prix col-3">6 euros</div>
+        </li>
         </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-xs-12">
-                    <div class="card">
-                        <img class="card-img-top" src="/assets/img/virus.jpg" alt="Coronavirus">
-                        <div class="card-body">
-                            <h5 class="card-title">NEWS</h5>
-                            <p class="card-text">Due to the current COVID-19 epidemic, please call us to make a
-                                reservation.</p>
-                            <p class="card-text"><i class="fa fa-phone"></i> Charleroi : +32 (0)71 12 34 56</p>
-                            <p class="card-text"><i class="fa fa-phone"></i> Namur : +32 (0)81 45 67 89</p>
-                            <a href="https://www.info-coronavirus.be/" target="_blank"
-                                class="btn btn-outline-success">More info</a>
-                        </div>
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-16 m-1">
+                        Follow us
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <div class="card">
-                        <img class="card-img-top" src="/assets/img/soup.jpg" alt="Soup image">
-                        <div class="card-body">
-                            <h5 class="card-title">PROMO</h5>
-                            <p class="card-text">When you purchase a sandwich and a drink, a soup is offered to you*.
-                            </p>
-                            <p class="card-text font-italic font-weight-light">*Limited to 1 per person.</p>
-                            <a href="menu.html" class="btn btn-outline-success">More info</a>
-                        </div>
-                    </div>
+                <div class="row justify-content-center">
+                    <i class="fab fa-facebook m-1 mr-2"></i>
+                    <i class="fab fa-instagram m-1 mr-2"></i>
+                    <i class="fab fa-twitter m-1 mr-2"></i>
                 </div>
-            </div>
-    </main>
-
-
-    <footer>
-        <div class="container">
-            <div class="row text-center justify-content-center">
-                <div class="col-12 m-1">
-                    Follow us on social media
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook m-1 mr-2"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram m-1 mr-2"></i></a>
-                <a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter m-1 mr-2"></i></a>
             </div>
         </div>
-    </footer>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
