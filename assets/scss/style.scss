@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     padding-top: 13vh;
 }
@@ -37,10 +38,18 @@ padding-left: 15vh;}
 .prix {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 25vh;
+=======
+header {
+    background-color: lightgray;
+}
+body {
+    padding-top: 20vh;
+>>>>>>> simon
 }
 footer {
     margin-top: 5vh;
     padding: 2vh 0;
+<<<<<<< HEAD
     background-color: #00B146;
     color: white;
     i {
@@ -53,12 +62,24 @@ footer {
 }
 .bg-cover {
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(/assets/img/salad.jpg);
+=======
+    background-color: #69B761;
+    color: white;
+}
+.bg-cover {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(/assets/img/fig.jpg);
+>>>>>>> simon
     background-attachment: static;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+<<<<<<< HEAD
 .jumbotron {
     min-height: 60vh;
+=======
+i {
+    font-size: 1.3em;
+>>>>>>> simon
 }
