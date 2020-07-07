@@ -1,0 +1,23 @@
+header {
+    background-color: lightgray;
+}
+body {
+    padding-top: 20vh;
+}
+footer {
+    margin-top: 5vh;
+    padding: 2vh 0;
+    background-color: #69B761;
+    color: white;
+}
+.bg-cover {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(/assets/img/fig.jpg);
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i {
+    font-size: 1.3em;
+}
