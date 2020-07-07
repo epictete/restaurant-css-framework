@@ -9,9 +9,14 @@ body {
   text-align: center;
 }
 
-.card {
+.card-menu {
   padding-bottom: 5vh;
   border-style: hidden;
+}
+
+.card-menu:hover {
+  -webkit-filter: contrast(140%);
+          filter: contrast(140%);
 }
 
 .card-title {
@@ -19,11 +24,6 @@ body {
   font-size: large;
   font-weight: bold;
   padding-top: 2vh;
-}
-
-.list-group {
-  padding-left: 15vh;
-  border-radius: 0;
 }
 
 .plat {
@@ -39,6 +39,7 @@ body {
 
 .prix {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: right;
 }
 
 footer {
@@ -109,8 +110,8 @@ footer a {
   margin-left: 30%;
   margin-right: 30%;
   padding: 1rem;
-  -webkit-box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  -webkit-box-shadow: 1px 1px 12px #555;
+  box-shadow: 1px 1px 12px #555;
 }
 
 .contact-form h1 {
