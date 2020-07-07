@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
 
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Beverages</title>
+    <script src="https://kit.fontawesome.com/7109a902b4.js" crossorigin="anonymous"></script>
+    <title>Hot Meals</title>
 </head>
 
 <body>
@@ -27,10 +28,10 @@
             <div class="collapse navbar-collapse justify-content-end pr-3" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#"><button type="button"
-                            class="btn btn-outline-success active">Welcome</button><span
+                            class="btn btn-outline-success">Welcome</button><span
                             class="sr-only">(current)</span></a>
                     <div class="nav-item nav-link btn-group">
-                        <button type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown"
+                        <button type="button" class="btn btn-outline-success dropdown-toggle active" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             Menu
                         </button>
@@ -77,55 +78,72 @@
             </div>
         </nav>
     </header>
-    <h1>Beverages</h1>
-    <ul class="list-group">
+    <h1 class="titrePage">Hot meals</h1>
+    <div class="container">
+    <ul class="list-group list-group-flush">
         <li class="list-group-item row d-flex">
-            <div class="col-9">Local beers (ask your waiter for options)
-            </div>
-            <div class="col-3">3 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">House wine (red, white or rosé)
-            </div>
-            <div class="col-3">3 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">Still or sparkling water
-            </div>
-            <div class="col-3">2 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">Carrot juice
-            </div>
-            <div class="col-3">4 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">Raspberry juice
-            </div>
-            <div class="col-3">4 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">Homemade ice tea
-            </div>
-            <div class="col-3">3 euros</div>
-        </li>
-        <li class="list-group-item row d-flex">
-            <div class="col-9">Strawberry - banana smoothie
-                <p>Strawberry - banana - vanilla - almond milk
-                    <span class="badge badge-danger badge-pill">Contains nuts</span>
+            <div class="plat col-9">Pasta carbonara
+                <p class="descriptionPlat">Linguine - aspargus - garlic - egg yolks - paprika - pepper - parmesan
+                    <span class="badge badge-warning badge-pill">Spicy</span>
                 </p>
             </div>
-            <div class="col-3">6 euros</div>
+            <div class="prix col-3">13 euros</div>
         </li>
         <li class="list-group-item row d-flex">
-            <div class="col-9">Coffee or tea (ask your waiter for options)
+            <div class="plat col-9">Veggie-loaded flatbread
+                <p class="descriptionPlat">Chickpeas - tomatoes - feta - black olives - eggplant</p>
             </div>
-            <div class="col-3">2 euros</div>
+            <div class="prix col-3">14 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Farro plate with green olives, hazelnuts and raisins
+                <p class="descriptionPlat">Farro - lemon - honey - onions - raisin - red peppers - pecorino cheese</p>
+            </div>
+            <div class="prix col-3">12 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Roasted aubergine and tomato curry
+                <p class="descriptionPlat">Eggplant - coconut milk - curry paste - tomatoes - indian spices - rice
+                    <span class="badge badge-warning badge-pill">Spicy</span>
+                    <span class="badge badge-success badge-pill">Gluten free</span>
+                    <span class="badge badge-success badge-pill">Vegan friendly</span>
+                </p>
+            </div>
+            <div class="prix col-3">13 euros</div>
+        </li>
+        <li class="list-group-item row d-flex">
+            <div class="plat col-9">Veggie-burger
+                <p class="descriptionPlat">Brioche bun - mushroom paddy - lettuce - pickled red onions - served with a side of fries or salad
+                    <span class="badge badge-success badge-pill">Vegan friendly</span>
+                </p>
+            </div>
+            <div class="prix col-3">13 euros</div>
         </li>
     </ul>
     <footer>
-        <!--ajouter footer commun-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-16 m-1">
+                    Follow us
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <i class="fab fa-facebook m-1 mr-2"></i>
+                <i class="fab fa-instagram m-1 mr-2"></i>
+                <i class="fab fa-twitter m-1 mr-2"></i>
+            </div>
+        </div>
+    </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

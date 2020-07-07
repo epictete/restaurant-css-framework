@@ -1,17 +1,53 @@
-h1 {
+body {
+  padding-top: 13vh;
+}
+
+.titrePage {
   font-weight: bold;
   font-style: oblique;
+  padding-bottom: 5vh;
+  padding-left: 15vh;
+}
+
+.card {
+  padding-bottom: 5vh;
+}
+
+.card-title {
+  color: #00B146;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 2vh;
+}
+
+.list-group {
+  padding-left: 15vh;
+  border-radius: 0;
 }
 
 .plat {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
+  color: #00B146;
 }
 
-p {
+.descriptionPlat {
   font-weight: lighter;
+  color: black;
 }
 
 .prix {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  margin-top: 5vh;
+  padding: 2vh 0;
+  background-color: #00B146;
+  color: white;
+}
+
+i {
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
