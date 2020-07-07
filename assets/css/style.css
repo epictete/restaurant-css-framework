@@ -1,11 +1,20 @@
 body {
-  padding-top: 20vh;
+  padding-top: 25vh;
 }
 
 footer {
   margin-top: 5vh;
   padding: 2vh 0;
   background-color: #00B146;
+  color: white;
+}
+
+footer i {
+  font-size: 1.5em;
+}
+
+footer a {
+  text-decoration: none;
   color: white;
 }
 
@@ -20,9 +29,5 @@ footer {
 
 .jumbotron {
   min-height: 60vh;
-}
-
-footer i {
-  font-size: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */

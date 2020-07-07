@@ -1,11 +1,18 @@
 body {
-    padding-top: 20vh;
+    padding-top: 25vh;
 }
 footer {
     margin-top: 5vh;
     padding: 2vh 0;
     background-color: #00B146;
     color: white;
+    i {
+        font-size: 1.5em;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 .bg-cover {
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(/assets/img/salad.jpg);
@@ -17,8 +24,4 @@ footer {
 
 .jumbotron {
     min-height: 60vh;
-}
-
-footer i {
-    font-size: 1.5em;
 }
