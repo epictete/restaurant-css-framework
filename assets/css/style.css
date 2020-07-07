@@ -59,8 +59,8 @@ footer a {
 }
 
 .bg-cover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("./assets/img/salad.jpg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../assets/img/salad.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("https://github.com/epictete/restaurant-css-framework/blob/master/assets/img/salad.jpg?raw=true");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("https://github.com/epictete/restaurant-css-framework/blob/master/assets/img/salad.jpg?raw=true");
   background-attachment: static;
   background-position: center;
   background-repeat: no-repeat;
