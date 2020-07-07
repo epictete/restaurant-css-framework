@@ -1,5 +1,5 @@
 body {
-  padding-top: 25vh;
+  padding-top: 20vh;
 }
 
 footer {
@@ -16,6 +16,10 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron {
+  min-height: 60vh;
 }
 
 footer i {
