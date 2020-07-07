@@ -1,4 +1,7 @@
 /* Style CSS for the gallery land page */
+body{
+    padding: 20vh;
+}
 
 .premier:hover {
     -ms-transform: scale(1.1); /* IE 9 */
@@ -12,14 +15,7 @@
 }
 
 /* Style CSS for the bar image gallery*/
-.barBody{
-    
-    background-image:  url("../Images/bar9.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
+
 .Imag {
     filter: grayscale(100%);
     transition: 1s;
@@ -31,22 +27,19 @@
 }
 /* Style CSS for the  contact page*/
 
-.contactPageBody{
-    background: url("../Images/vegan2.jpg");
-    background-size: cover;
-}
 .contact-form{
     background: #f1f1f1;
     box-sizing: border-box;
     border-radius: 8px;
     text-align: center;
     margin-top: 0;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
    
 }
 .contact-form h1{
-    color: green;
+    
     text-transform: uppercase;
     margin-top: 0;
 }
