@@ -20,6 +20,9 @@ The website must be responsive, at least for small and medium screens. It must a
 ## Deadline
 Tuesday, 07/07/2020, 5:00 pm
 
+## Sources:
+- [Pixabay](https://pixabay.com/fr/) 
+
 ## Members:
 - [@John Laterre](https://github.com/epictete)
 - [@Marie Pierard](https://github.com/Marie-Pierard)
