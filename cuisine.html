@@ -75,38 +75,60 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-4">
-                    <img class="Imag border rounded justify-content-around" src="Images/imgCuisine/cuisine1.jpg" alt=""
-                        width="300" height="300">
-                    <h2 class="text-dark text-justify text-center"> traditional tea </h2>
-                </div>
-                <div class="col-4  ">
-                    <img class="Imag  border rounded justify-content-around" src="Images/imgCuisine/cuisine2.jpg" alt=""
-                        width="300" height="300">
-                    <h2 class="text-dark text-justify text-center"> Home pasta </h2>
-                </div>
-                <div class="col-4  ">
-                    <img class="Imag  border rounded justify-content-around" src="Images/imgCuisine/cuisine3.jpg" alt=""
-                        width="300" height="300">
-                    <h2 class="text-dark text-justify text-center"> The chef </h2>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-4  ">
-                    <img class="Imag  border rounded justify-content-around" src="Images/imgCuisine/cuisine4.jpg" alt=""
-                        width="300" height="300">
-                    <h2 class="text-dark text-justify text-center"> the sous chef </h2>
-                </div>
-                <div class="col-4  ">
-                    <img class="Imag  border rounded justify-content-around" src="Images/imgCuisine/cuisine5.jpg" alt=""
-                        width="300" height="300">
-                    <h2 class="text-dark text-justify text-center"> The kitchen </h2>
-                </div>
-            </div>
+        <div class=" text-center text-success">
+            <h1> The Cuisine </h1><br>
         </div>
-
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li> 
+            </ol>
+                <div class="container text-center">
+                    <div class="carousel-inner text-center">
+                    <div class="carousel-item active text-center">
+                        <img class="Imag" src="Images/imgCuisine/cuisine1.jpg" class="d-block mx-auto border rounded shadow-lg mb-1 bg-success rounded" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                        <h3 class="text-success">Traditional Tea</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img class="Imag" src="Images/imgCuisine/cuisine2.jpg" class="d-block mx-auto border rounded shadow-lg mb-1 bg-success rounded " alt="...">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                        <h3 class="text-success" >Home Pasta</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img class="Imag" src="Images/imgCuisine/cuisine3.jpg" class="d-block mx-auto border rounded shadow-lg mb-1 bg-success rounded" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                        <h3 class="text-success">The Chef</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img class="Imag" src="Images/imgCuisine/cuisine4.jpg" class="d-block mx-auto border rounded shadow-lg mb-1 bg-success rounded" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                        <h3 class="text-success">The Sous-Chef</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img class="Imag" src="Images/imgCuisine/cuisine5.jpg" class="d-block mx-auto border rounded shadow-lg mb-1 bg-success rounded" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-center">
+                        <h3 class="text-success">The kitchen</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
     </main>
 
     <footer>
